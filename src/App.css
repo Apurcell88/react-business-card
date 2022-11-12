@@ -9,14 +9,16 @@
   height: 100vh;
   background-color:#2b283a;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: absolute;
 
 }
 
 .info__container {
   width: 40%;
-  height: 90%;
+  height: 95%;
   background-color: #23252c;
   border-radius: 20px;
   display: flex;
@@ -67,4 +69,20 @@
 .info__linkedin-btn {
   background-color: #0096ff;
   color: #fff;
+}
+
+.about-container {
+  width: 40%;
+  position: relative;
+  bottom: 35%;
+}
+
+.about {
+  color: #fff;
+  padding: 0.5rem 0 0.5rem 2rem;
+}
+
+.about__info {
+  color: #fff;
+  padding: 0 2rem;
 }
