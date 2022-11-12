@@ -74,7 +74,7 @@
 .about-container {
   width: 40%;
   position: relative;
-  bottom: 35%;
+  bottom: 30%;
 }
 
 .about {
@@ -85,4 +85,13 @@
 .about__info {
   color: #fff;
   padding: 0 2rem;
+}
+
+.footer-container {
+  width: 40%;
+  height: 5%;
+  background-color: #23252c;
+  border-radius: 0 0 10px 10px;
+  position: relative;
+  bottom: 20%;
 }
